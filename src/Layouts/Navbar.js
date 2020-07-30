@@ -1,12 +1,15 @@
 import React, {Component} from 'react';
 import logo from './../images/webiz-logo.png';
+import {Link} from 'react-router-dom';
 
 
-class Navbar extends Component {
-    render(){
+function Navbar() {
+  
         return(
+            
             <section id="nav-bar">
-            <nav className="navbar navbar-expand-lg navbar-light">
+                
+                <nav className="navbar navbar-expand-lg navbar-light">
                <a className="navbar-brand" href="#">
                  <img src={logo} alt=""/>
                </a>
@@ -16,26 +19,28 @@ class Navbar extends Component {
               <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav ml-auto">
                   <li className="nav-item">
-                    <a className="nav-link" href="#top">Home <span className="sr-only">(current)</span></a>
+                    <Link className="nav-Link" to="#top">Creazione <span className="sr-only">(current)</span></Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#services">Services</a>
+                    <Link className="nav-Link" to="#services">Services</Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#about">About</a>
+                    <Link className="nav-Link" to="#about">A propos</Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#testimonials">Testimonials</a>
+                    <Link className="nav-Link" to="#testimonials">Testimonials</Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#contact">Contact</a>
+                    <Link className="nav-Link" to="#contact">Contact</Link>
                   </li>
                 </ul>
               </div>
             </nav>
+        
+
           </section>
         )
-    }
+   
 }
 
 export default Navbar

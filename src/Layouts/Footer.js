@@ -33,7 +33,7 @@ class Footer extends Component {
                 <button type="button"className="btn btn-primary" name="button">Subscribe</button>
 
                 <div id="social">
-                    <p>Find Us On Social Media</p>
+                    <p>Retrouvez nous sur les réseaux sociaux</p>
                        <div className="social-icons">
                           <a href="#" className="svg-icons"><img src={facebook} alt=""/></a>
                           <a href="#" className="svg-icons"><img src={instagram} alt=""/></a>

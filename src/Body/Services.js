@@ -8,20 +8,21 @@ import ads from './../svg/ads.svg';
 
 const Services = () => {
     return (
+      <div>
         <section id="services">
       <div class="container text-center">
         <h3 class="title text-center">SERVICES</h3>
         <div class="row text-center">
           <div class="col-md-4 services">
             <img src={website} class="service-img"   alt=""/>
-            <h4>Landing Page Design</h4>
+            <h4>Solution web</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
           <div class="col-md-4 services">
             <img src={branding} class="service-img"   alt=""/>
-            <h4>Online  Branding</h4>
+            <h4>Design graphique</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
@@ -35,7 +36,7 @@ const Services = () => {
           </div>
           <div class="col-md-4 services">
             <img src={undraw} class="service-img"   alt=""/>
-            <h4>PPC</h4>
+            <h4>Infographie 3D</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
@@ -49,7 +50,7 @@ const Services = () => {
           </div>
           <div class="col-md-4 services">
           <img src={wireframe} class="service-img"   alt=""/>
-            <h4>SEO</h4>
+            <h4>Hi-tech</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
@@ -58,6 +59,7 @@ const Services = () => {
         <button type="button" class="btn btn-primary"  name="button">Find Out More</button>
       </div>
     </section>
+    </div>
     )
 }
 

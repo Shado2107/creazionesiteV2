@@ -3,7 +3,7 @@
 * Template URI: https://www.salvatoremandis.it
 * Description: Webiz Digital Agency - Responsive Bootstrap Template
 * Author: Salvatore Mandis
-* Author URI: https://www.salvatoremandis.it
+* Author URI: https://www.salvatoremandis.it 
 */
 
 * {
@@ -32,7 +32,7 @@ body {
 /* Logo resize */
 
 .navbar-brand img {
-    height: 4rem;
+    height: 3rem;
     padding-left: 3rem;
 }
 

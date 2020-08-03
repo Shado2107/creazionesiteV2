@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import logo from './../images/webiz-logo.png';
+import React from 'react';
+import logo from './../images/logo_creazione.png';
 import {Link} from 'react-router-dom';
 
 
@@ -10,9 +10,9 @@ function Navbar() {
             <section id="nav-bar">
                 
                 <nav className="navbar navbar-expand-lg navbar-light">
-               <a className="navbar-brand" href="#">
-                 <img src={logo} alt=""/>
-               </a>
+               <Link className="navbar-brand" to="#top">
+                 <img to="#top" src={logo} alt=""/>
+               </Link>
                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                  <i className="fa fa-bars"></i>
                </button>
@@ -43,4 +43,4 @@ function Navbar() {
    
 }
 
-export default Navbar
+export default Navbar;

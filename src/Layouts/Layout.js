@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import Footer from './Footer';
 import Banner from './Banner';
 import Navbar from './Navbar';
-import Services from './../Body/Services';
+import Body from './../Body/Body';
 
 
 class Layout extends Component{
@@ -11,7 +11,7 @@ class Layout extends Component{
             <div>
                 <Navbar></Navbar>
                 <Banner></Banner>
-                <Services></Services>
+                <Body></Body>
                 <Footer></Footer>
             </div>
         )
